@@ -1,0 +1,36 @@
+﻿/* Extracted CSS from the "ID OCR Processing Service" page */
+/* Note: Below is a summarized version of the CSS. Make sure to include all necessary styles from the original page. */
+
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu", "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin: 0;
+    background-color: var(--background-color);
+    color: var(--color);
+}
+
+.container-fluid, .container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: var(--spacing);
+    padding-left: var(--spacing);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+}
+
+button {
+    display: block;
+    width: 100%;
+    margin-bottom: var(--spacing);
+    padding: var(--form-element-spacing-vertical) var(--form-element-spacing-horizontal);
+    border: var(--border-width) solid var(--border-color);
+    background-color: var(--primary);
+    color: var(--primary-inverse);
+    cursor: pointer;
+}
+
+/* ... additional styles ... */
