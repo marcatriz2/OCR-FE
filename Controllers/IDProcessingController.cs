@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using OCR_FE.Services;
 using System.IO;
 using System.Threading.Tasks;
 
@@ -8,7 +9,6 @@ namespace OCR_FE.Controllers
     [Route("[controller]")]
     public class IDProcessingController : ControllerBase
     {
-        // Assuming you have a service for handling ChatGPT API interactions
         private readonly IChatGPTService _chatGPTService;
 
         public IDProcessingController(IChatGPTService chatGPTService)
